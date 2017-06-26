@@ -1,4 +1,7 @@
-function aa(){
-	console.log(11);
+class ext {
+	init() {
+		console.log(123);
+	}
 }
-aa();
+let _instance = new ext();
+_instance.init();
